@@ -3,11 +3,11 @@ import {EComponentType} from "./EComponentType";
 import React, {FunctionComponent, useState} from "react";
 import LeftMenuComponent from "./LeftMenuComponent";
 import {withTheme} from "@rjsf/core";
-import {Theme as PrimeTheme} from "../primereact";
+import {Theme as PrimeTheme} from "../../primereact";
 import TreeNode from "primereact/treenode";
-import {ClinicalForm} from "./forms/ClinicalForm";
-import {GenomicForm} from "./forms/GenomicForm";
-import {EmptyHelper} from "./forms/EmptyHelper";
+import {ClinicalForm} from "../forms/ClinicalForm"
+import {GenomicForm} from "../forms/GenomicForm";
+import {EmptyHelper} from "../forms/EmptyHelper";
 
 
 const RjsfForm = withTheme(PrimeTheme)

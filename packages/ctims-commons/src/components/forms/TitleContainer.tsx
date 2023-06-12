@@ -2,7 +2,7 @@ import {useDispatch} from "react-redux";
 import {
   addAdjacentNode,
   deleteNode,
-} from "../../../../../../apps/web/store/slices/modalActionsSlice";
+} from "../../store/slices/modalActionsSlice";
 import styles from "../MatchingMenuAndForm.module.scss";
 import {Button} from "primereact/button";
 import React from "react";

@@ -1,7 +1,7 @@
 import {asNumber, guessType, WidgetProps} from "@rjsf/utils";
 import {MultiSelectChangeParams} from "primereact/multiselect";
 import {DropdownChangeParams} from "primereact/dropdown";
-import styles from "./CtimsDropdown.module.css";
+import styles from "../../../../../packages/ctims-commons/src/custom-rjsf-templates/CtimsDropdown.module.css"
 import {Tooltip} from "primereact/tooltip";
 import React from "react";
 import {SelectButton} from "primereact/selectbutton";

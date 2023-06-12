@@ -13,7 +13,7 @@ import {
   findArrayContainingKeyInsideATree,
   findObjectByKeyInTree,
   isObjectEmpty
-} from "./helpers";
+} from "../helpers";
 import * as jsonpath from "jsonpath";
 import {EComponentType} from "./EComponentType";
 import {IRootNode} from "./MatchingMenuAndForm";
@@ -25,10 +25,10 @@ import {
   IDeleteCriteria,
   IOperatorChange, operatorChange,
   setCtmlDialogModel, setMatchDialogErrors
-} from "../../../../../apps/web/store/slices/modalActionsSlice";
+} from "../../store/slices/modalActionsSlice";
 import {structuredClone} from "next/dist/compiled/@edge-runtime/primitives/structured-clone";
 import {v4 as uuidv4} from 'uuid';
-import {IKeyToViewModel, setMatchViewModel} from "../../../../../apps/web/store/slices/matchViewModelSlice";
+import {IKeyToViewModel, setMatchViewModel} from "../../store/slices/matchViewModelSlice"
 import {RootState, store} from "../../../../../apps/web/store/store";
 import {classNames} from "primereact/utils";
 import {CtimsDialogContext, CtimsDialogContextType} from "./CtimsMatchDialog";

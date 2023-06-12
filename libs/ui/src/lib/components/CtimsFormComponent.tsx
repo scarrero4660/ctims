@@ -8,13 +8,13 @@ import CtimsArrayFieldTemplate from "../custom-rjsf-templates/CtimsArrayFieldTem
 import localValidator, {customizeValidator} from "@rjsf/validator-ajv8";
 import {CSSProperties, ForwardedRef, forwardRef, memo, useState} from "react";
 import {withTheme} from "@rjsf/core";
-import {Theme as PrimeTheme} from "../primereact";
+import {Theme as PrimeTheme} from "../../../../../packages/ctims-commons/src/primereact";
 import {RegistryWidgetsType, RJSFValidationError} from "@rjsf/utils";
-import CtimsInput from "../custom-rjsf-templates/CtimsInput";
-import CtimsDropdown from "../custom-rjsf-templates/CtimsDropdown";
-import CtimsMatchingCriteriaWidget from "../custom-rjsf-templates/CtimsMatchingCriteriaWidget";
-import CtimsFieldTemplate from "../custom-rjsf-templates/CtimsFieldTemplate";
-import CtimsErrorListTemplate from "../custom-rjsf-templates/CtimsErrorListTemplate";
+import CtimsInput from "../../../../../packages/ctims-commons/src/custom-rjsf-templates/CtimsInput"
+import CtimsDropdown from "../../../../../packages/ctims-commons/src/custom-rjsf-templates/CtimsDropdown"
+import CtimsMatchingCriteriaWidget from '../../../../../packages/ctims-commons/src/custom-rjsf-templates/CtimsMatchingCriteriaWidget'
+import CtimsFieldTemplate from "../../../../../packages/ctims-commons/src/custom-rjsf-templates/CtimsFieldTemplate"
+import CtimsErrorListTemplate from "../../../../../packages/ctims-commons/src/custom-rjsf-templates/CtimsErrorListTemplate"
 import DoseLevelObjectFieldTemplate from "../custom-rjsf-templates/DoseLevelObjectFieldTemplate";
 import CtimsArrayFieldSingleTemplate from "../custom-rjsf-templates/CtimsArrayFieldSingleTemplate";
 import CtimsArmItemObjectFieldTemplate from "../custom-rjsf-templates/CtimsArmItemObjectFieldTemplate";

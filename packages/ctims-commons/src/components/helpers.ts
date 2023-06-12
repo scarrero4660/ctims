@@ -1,5 +1,5 @@
 import TreeNode from "primereact/treenode";
-import {EComponentType} from "./EComponentType";
+import {EComponentType} from "./matching-criteria/EComponentType";
 import { v4 as uuidv4 } from 'uuid';
 import {ErrorSchema, RJSFValidationError} from "@rjsf/utils";
 

@@ -8,18 +8,18 @@ import {
   formChange,
   operatorChange,
   setMatchDialogErrors
-} from "../../../../../../apps/web/store/slices/modalActionsSlice";
+} from "../../store/slices/modalActionsSlice";
 import {OperatorDropdown} from "./OperatorDropdown";
 import {TitleContainer} from "./TitleContainer";
 import {JSONSchema7} from "json-schema";
 import localValidator from "@rjsf/validator-ajv8";
-import {IFormProps} from "../MatchingMenuAndForm";
+import {IFormProps} from "../matching-criteria/MatchingMenuAndForm"
 import {Theme as PrimeTheme} from "../../primereact";
 import CtimsFieldTemplate from "../../custom-rjsf-templates/CtimsFieldTemplate";
 import CtimsErrorListTemplate from "../../custom-rjsf-templates/CtimsErrorListTemplate";
 import CtimsInput from "../../custom-rjsf-templates/CtimsInput";
 import CtimsDropdown from "../../custom-rjsf-templates/CtimsDropdown";
-import {CtimsDialogContext, CtimsDialogContextType} from "../CtimsMatchDialog";
+import {CtimsDialogContext, CtimsDialogContextType} from "../matching-criteria/CtimsMatchDialog";
 
 const RjsfForm = withTheme(PrimeTheme)
 

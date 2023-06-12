@@ -1,7 +1,7 @@
 import './ui.module.scss';
 import {CSSProperties, useEffect, useRef, useState} from "react";
 import CtimsFormComponentMemo from './components/CtimsFormComponent';
-import CtimsMatchDialog from './components/CtimsMatchDialog';
+import CtimsMatchDialog from "../../../../packages/ctims-commons/src/components/matching-criteria/CtimsMatchDialog";
 import {useDispatch} from "react-redux";
 import {resetFormChangeCounter} from "../../../../apps/web/store/slices/modalActionsSlice";
 import {

@@ -3,14 +3,14 @@ import {
   deleteMatchDialogError,
   formChange, operatorChange,
   setMatchDialogErrors
-} from "../../../../../../apps/web/store/slices/modalActionsSlice";
+} from "../../store/slices/modalActionsSlice";
 import {useDispatch} from "react-redux";
 import CtimsMatchDialogObjectFieldTemplate from "../../custom-rjsf-templates/CtimsMatchDialogObjectFieldTemplate";
 import {withTheme} from "@rjsf/core";
 import {RegistryWidgetsType, ValidationData} from "@rjsf/utils";
 import {JSONSchema7} from "json-schema";
 import localValidator from "@rjsf/validator-ajv8";
-import {IFormProps} from "../MatchingMenuAndForm";
+import {IFormProps} from "../matching-criteria/MatchingMenuAndForm"
 import {OperatorDropdown} from "./OperatorDropdown";
 import {TitleContainer} from "./TitleContainer";
 import {Theme as PrimeTheme} from "../../primereact";
@@ -19,7 +19,7 @@ import CtimsFieldTemplate from "../../custom-rjsf-templates/CtimsFieldTemplate";
 import CtimsErrorListTemplate from "../../custom-rjsf-templates/CtimsErrorListTemplate";
 import CtimsInput from "../../custom-rjsf-templates/CtimsInput";
 import CtimsDropdown from "../../custom-rjsf-templates/CtimsDropdown";
-import {CtimsDialogContext, CtimsDialogContextType} from "../CtimsMatchDialog";
+import {CtimsDialogContext, CtimsDialogContextType} from "../matching-criteria/CtimsMatchDialog"
 
 const RjsfForm = withTheme(PrimeTheme)
 

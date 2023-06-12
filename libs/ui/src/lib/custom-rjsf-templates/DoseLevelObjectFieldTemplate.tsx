@@ -1,6 +1,6 @@
 import {getTemplate, getUiOptions, ObjectFieldTemplatePropertyType, ObjectFieldTemplateProps} from "@rjsf/utils";
 import React, {useEffect} from "react";
-import {isObjectEmpty, stringContains} from "../components/helpers";
+import {isObjectEmpty, stringContains} from "../../../../../packages/ctims-commons/src/components/helpers";
 
 const DoseLevelObjectFieldTemplate = (props: ObjectFieldTemplateProps) => {
   const {

@@ -1,6 +1,6 @@
 import {ArrayFieldTemplateItemType, ArrayFieldTemplateProps, getTemplate, getUiOptions} from "@rjsf/utils";
 import React, {CSSProperties} from 'react'
-import {stringContains} from "../components/helpers";
+import {stringContains} from "../../../../../packages/ctims-commons/src/components/helpers";
 
 const CtimsArrayFieldTemplate = (props: ArrayFieldTemplateProps) => {
     const {

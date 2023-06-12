@@ -2,7 +2,7 @@ import {ArrayFieldTemplateItemType} from "@rjsf/utils";
 import {Panel} from "primereact/panel";
 import React, {CSSProperties} from "react";
 import {Ripple} from "primereact/ripple";
-import {stringContains} from "../components/helpers";
+import {stringContains} from "../../../../../packages/ctims-commons/src/components/helpers";
 
 const headerTemplate = (options: any, props: {
     title: string,

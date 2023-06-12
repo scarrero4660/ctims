@@ -7,7 +7,7 @@ import {Message} from "primereact/message";
 import {useSelector} from "react-redux";
 import {RootState} from "../../store/store";
 import {RJSFValidationError, ValidationData} from "@rjsf/utils";
-import {extractErrors, isObjectEmpty} from "../../../../libs/ui/src/lib/components/helpers";
+import {extractErrors, isObjectEmpty} from "../../../../packages/ctims-commons/src/components/helpers";
 import {stringify} from 'yaml'
 
 interface ExportCtmlDialogProps {

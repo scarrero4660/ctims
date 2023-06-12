@@ -1,6 +1,6 @@
 import {getTemplate, getUiOptions, ObjectFieldTemplatePropertyType, ObjectFieldTemplateProps} from "@rjsf/utils";
 import React, {useEffect} from "react";
-import {isObjectEmpty} from "../components/helpers";
+import {isObjectEmpty} from "../../../../../packages/ctims-commons/src/components/helpers"
 import {v4 as uuidv4} from 'uuid';
 
 

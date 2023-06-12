@@ -6,7 +6,7 @@ import { TabView, TabPanel } from 'primereact/tabview';
 import {useSelector} from "react-redux";
 import {stringify} from 'yaml'
 import {isObjectEmpty} from "../components/helpers";
-import {RootState} from "../../../../../apps/web/store/store";
+import {RootState} from "../store/store"
 import styles from './CtimsMatchingCriteriaWidget.module.scss';
 
 const headerTemplate = (options: any, props: { title: string, }) => {
